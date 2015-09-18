@@ -40,7 +40,19 @@
             this.suporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem6 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem7 = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.estoqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.realizarVendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.caixaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.finaceiroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
@@ -133,14 +145,68 @@
             // 
             this.menuStrip2.BackColor = System.Drawing.Color.SkyBlue;
             this.menuStrip2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.menuStrip2.Font = new System.Drawing.Font("Palatino Linotype", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastroToolStripMenuItem});
+            this.cadastroToolStripMenuItem,
+            this.toolStripMenuItem2,
+            this.clientesToolStripMenuItem,
+            this.toolStripMenuItem3,
+            this.estoqueToolStripMenuItem,
+            this.toolStripMenuItem4,
+            this.realizarVendaToolStripMenuItem,
+            this.toolStripMenuItem5,
+            this.caixaToolStripMenuItem,
+            this.toolStripMenuItem6,
+            this.finaceiroToolStripMenuItem,
+            this.toolStripMenuItem7,
+            this.backupToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(1278, 62);
             this.menuStrip2.TabIndex = 0;
             this.menuStrip2.Text = "menuStrip2";
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.ForeColor = System.Drawing.Color.White;
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(30, 58);
+            this.toolStripMenuItem2.Text = "|";
+            // 
+            // toolStripMenuItem3
+            // 
+            this.toolStripMenuItem3.ForeColor = System.Drawing.Color.White;
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(30, 58);
+            this.toolStripMenuItem3.Text = "|";
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.ForeColor = System.Drawing.Color.White;
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(30, 58);
+            this.toolStripMenuItem4.Text = "|";
+            // 
+            // toolStripMenuItem5
+            // 
+            this.toolStripMenuItem5.ForeColor = System.Drawing.Color.White;
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(30, 58);
+            this.toolStripMenuItem5.Text = "|";
+            // 
+            // toolStripMenuItem6
+            // 
+            this.toolStripMenuItem6.ForeColor = System.Drawing.Color.White;
+            this.toolStripMenuItem6.Name = "toolStripMenuItem6";
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(30, 58);
+            this.toolStripMenuItem6.Text = "|";
+            // 
+            // toolStripMenuItem7
+            // 
+            this.toolStripMenuItem7.ForeColor = System.Drawing.Color.White;
+            this.toolStripMenuItem7.Name = "toolStripMenuItem7";
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(30, 58);
+            this.toolStripMenuItem7.Text = "|";
             // 
             // cadastroToolStripMenuItem
             // 
@@ -151,6 +217,60 @@
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(135, 58);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
+            // 
+            // clientesToolStripMenuItem
+            // 
+            this.clientesToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.clientesToolStripMenuItem.Image = global::WindowsFormsApplication5.Properties.Resources.Business_Man_Add_01;
+            this.clientesToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
+            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(129, 58);
+            this.clientesToolStripMenuItem.Text = "Clientes";
+            // 
+            // estoqueToolStripMenuItem
+            // 
+            this.estoqueToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.estoqueToolStripMenuItem.Image = global::WindowsFormsApplication5.Properties.Resources.Box_02;
+            this.estoqueToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.estoqueToolStripMenuItem.Name = "estoqueToolStripMenuItem";
+            this.estoqueToolStripMenuItem.Size = new System.Drawing.Size(127, 58);
+            this.estoqueToolStripMenuItem.Text = "Estoque";
+            // 
+            // realizarVendaToolStripMenuItem
+            // 
+            this.realizarVendaToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.realizarVendaToolStripMenuItem.Image = global::WindowsFormsApplication5.Properties.Resources.Sales_Order;
+            this.realizarVendaToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.realizarVendaToolStripMenuItem.Name = "realizarVendaToolStripMenuItem";
+            this.realizarVendaToolStripMenuItem.Size = new System.Drawing.Size(181, 58);
+            this.realizarVendaToolStripMenuItem.Text = "Realizar Venda";
+            // 
+            // caixaToolStripMenuItem
+            // 
+            this.caixaToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.caixaToolStripMenuItem.Image = global::WindowsFormsApplication5.Properties.Resources.Money;
+            this.caixaToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.caixaToolStripMenuItem.Name = "caixaToolStripMenuItem";
+            this.caixaToolStripMenuItem.Size = new System.Drawing.Size(110, 58);
+            this.caixaToolStripMenuItem.Text = "Caixa";
+            // 
+            // finaceiroToolStripMenuItem
+            // 
+            this.finaceiroToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.finaceiroToolStripMenuItem.Image = global::WindowsFormsApplication5.Properties.Resources.Money_Credit_Card;
+            this.finaceiroToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.finaceiroToolStripMenuItem.Name = "finaceiroToolStripMenuItem";
+            this.finaceiroToolStripMenuItem.Size = new System.Drawing.Size(138, 58);
+            this.finaceiroToolStripMenuItem.Text = "Finaceiro";
+            // 
+            // backupToolStripMenuItem
+            // 
+            this.backupToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.backupToolStripMenuItem.Image = global::WindowsFormsApplication5.Properties.Resources.Export___01;
+            this.backupToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.backupToolStripMenuItem.Name = "backupToolStripMenuItem";
+            this.backupToolStripMenuItem.Size = new System.Drawing.Size(122, 58);
+            this.backupToolStripMenuItem.Text = "Backup";
             // 
             // Form1
             // 
@@ -188,6 +308,18 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem suporteToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem estoqueToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
+        private System.Windows.Forms.ToolStripMenuItem realizarVendaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem5;
+        private System.Windows.Forms.ToolStripMenuItem caixaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem6;
+        private System.Windows.Forms.ToolStripMenuItem finaceiroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem7;
+        private System.Windows.Forms.ToolStripMenuItem backupToolStripMenuItem;
 
 
 

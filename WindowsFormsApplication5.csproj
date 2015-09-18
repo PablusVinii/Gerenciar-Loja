@@ -115,6 +115,24 @@
   <ItemGroup>
     <None Include="Resources\User Addpp.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Business-Man-Add-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Box-02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sales-Order.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money-Credit-Card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Export - 01.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
